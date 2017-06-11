@@ -55,7 +55,7 @@ namespace AzureRMSTestApp
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine();
-                Console.WriteLine("Error in loading of templates");
+                Console.WriteLine("Error occured while loading of templates");
                 Console.WriteLine(e.ToString());
                 Console.ResetColor();
                 return null;
@@ -80,7 +80,7 @@ namespace AzureRMSTestApp
             catch (InformationProtectionException e)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Error in file decrtyption");
+                Console.WriteLine("Error occured while decrtypting file");
                 Console.WriteLine(e.ToString());
                 Console.ResetColor();
             }
@@ -109,7 +109,7 @@ namespace AzureRMSTestApp
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine();
-                Console.WriteLine("Error in file encrtyption");
+                Console.WriteLine("Error occured while encrtypting file");
                 Console.WriteLine(e.ToString());
                 Console.ResetColor();
             }
