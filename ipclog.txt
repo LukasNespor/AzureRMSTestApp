@@ -1,0 +1,2727 @@
+{{[1][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ippapi.cpp:ippInitializeAuthAndFileBasedLoggingIfNeeded:3753
+
+Logging Initialized for server mode, store name is NULL
+
+}}{{[2][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ippapi.cpp:ippInitializeAuthAndFileBasedLoggingIfNeeded:3756
+
+Log Version: 1.1
+
+}}{{[6][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcpGetLoggerInstance
+  ppLoggerInstance:   000000C9C07FAAE0
+
+
+}}{{[7][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcpGetLoggerInstance exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}{{[8][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ipcfileapi.cpp:FileAPIInitializeLogging:94
+
+FileAPI logger instance initialized
+
+}}{{[9][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcGetGlobalProperty
+  dwType:   0x00000003
+
+
+}}{{[10][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcGetGlobalProperty exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}{{[11][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcFreeMemory
+  pb:   0000027BDB755020
+
+
+}}{{[12][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcFreeMemory exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}{{[13][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:204
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\] CurrentMajorVersionNumber=dword:10
+
+}}{{[14][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:204
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\] CurrentMinorVersionNumber=dword:0
+
+}}{{[15][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\] CurrentBuildNumber=14393
+
+}}{{[16][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcfpEncryptFile
+  wszInputFilePath:   d:\file.pdf
+  pvLicenseInfo:   0000027BDB789050
+  dwType:   0x00000000
+  dwFlags:   0x00000000
+  pContext:   PCIPC_PROMPT_CTX
+    -->cbSize:       40
+    -->hwndParent:   NULL
+    -->dwFlags:      0x00000005
+    -->hCancelEvent: NULL
+    -->pcCredential:
+      NULL
+  wszOutputFileDirectory:   NULL
+  pwszOutputFilePath:   0x000000C9C07FDF98
+************* Build Info *****************
+* MSIPC Version: 1.0.2217.0
+* Branch: RMS
+* Flavor: Retail
+* Architecture: x64
+******************************************
+************* System/App Info *************
+* OS: Windows
+* OS Version: 10.0.14393
+* OS Architecture: amd64
+* Client Hierarchy: 0
+* AppName: AzureRMSTestApp.vshost.exe
+* AppVersion: 14.0.23107.0
+* DateTime (UTC): 05/15/2017 12:29:20.727
+******************************************
+
+
+}}{{[17][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CProtectorSelector::Init
+
+}}{{[28][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CProtectorSelector::ReadProtectorConfiguration
+
+}}{{[29][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CProtectorSelector::ReadProtectorConfiguration
+
+}}{{[30][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CProtectorSelector::AddProtectorConfigurationDefaults
+
+}}{{[31][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CProtectorSelector::AddProtectorConfigurationDefaults
+
+}}{{[32][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CProtectorSelector::Init
+
+}}{{[34][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: cprotectorselector.cpp:Microsoft::InformationProtection::CProtectorSelector::InitPdfProtectorDependencies:263
+
+PdfDepDllInstallLocation is: C:\Program Files\Active Directory Rights Management Services Client 2.1\IRMProtectors\Microsoft.Office.Server.Native.dll 
+
+}}{{[43][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted
+
+}}{{[44][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cirmprotectorwrapper.cpp:Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted:114
+
++++++++++ Calling the HrIsProtected method of the protector +++++++++
+
+}}{{[45][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cirmprotectorwrapper.cpp:Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted:116
+
+--------- Call to the HrIsProtected method of the protector returned hr = 0x0 and dwStatus=2 --------
+
+}}{{[46][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted
+
+}}{{[57][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CPfileProtectorWrapper::GetProtectedFileName
+
+}}{{[60][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CPfileProtectorWrapper::GetProtectedFileName
+
+}}{{[62][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CFileStreamProtection::Encrypt
+
+}}{{[63][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted
+
+}}{{[64][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cirmprotectorwrapper.cpp:Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted:114
+
++++++++++ Calling the HrIsProtected method of the protector +++++++++
+
+}}{{[65][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cirmprotectorwrapper.cpp:Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted:116
+
+--------- Call to the HrIsProtected method of the protector returned hr = 0x0 and dwStatus=2 --------
+
+}}{{[66][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted
+
+}}{{[67][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cfilestreamprotection.cpp:Microsoft::InformationProtection::CFileStreamProtection::Encrypt:190
+
++++++++++ Encrypting an plaintext file starts ++++++++
+
+}}{{[73][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted
+
+}}{{[74][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cirmprotectorwrapper.cpp:Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted:114
+
++++++++++ Calling the HrIsProtected method of the protector +++++++++
+
+}}{{[75][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cirmprotectorwrapper.cpp:Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted:116
+
+--------- Call to the HrIsProtected method of the protector returned hr = 0x0 and dwStatus=2 --------
+
+}}{{[76][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted
+
+}}{{[77][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cfilestreamprotection.cpp:Microsoft::InformationProtection::CFileStreamProtection::IsNativeSupported:155
+
+Returning native supported status = 1
+
+}}{{[81][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cfilestreamprotection.cpp:Microsoft::InformationProtection::CFileStreamProtection::Encrypt:215
+
+Custom protector for this file is disabled by admin. Switch to Pfileprotector for encryption
+
+}}{{[86][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.743]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:204
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\] CurrentMajorVersionNumber=dword:10
+
+}}{{[87][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.743]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:204
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\] CurrentMinorVersionNumber=dword:0
+
+}}{{[88][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.743]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\] CurrentBuildNumber=14393
+
+}}{{[89][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.743]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcGetTemplateList
+  pConnectionInfo:   NULL
+  dwFlags:   0x00000000
+  lcid:   0
+  pContext:   PCIPC_PROMPT_CTX
+    -->cbSize:       40
+    -->hwndParent:   NULL
+    -->dwFlags:      0x00000005
+    -->hCancelEvent: NULL
+    -->pcCredential:
+      NULL
+  pvReserved:   NULL
+************* Build Info *****************
+* MSIPC Version: 1.0.2217.0
+* Branch: RMS
+* Flavor: Retail
+* Architecture: x64
+******************************************
+************* System/App Info *************
+* OS: Windows
+* OS Version: 10.0.14393
+* OS Architecture: amd64
+* Client Hierarchy: 0
+* AppName: AzureRMSTestApp.vshost.exe
+* AppVersion: 14.0.23107.0
+* DateTime (UTC): 05/15/2017 12:29:20.743
+******************************************
+
+
+}}{{[91][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ippapi.cpp:IpcGetTemplateListInternal:1837
+
++++++++++ Getting user identitiy before getting templates ++++++++
+       Extranet URL: NULL
+       Intranet URL: NULL
+       UserID: NULL
+
+}}{{[96][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.743]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - CERT-Machine
+
+}}{{[97][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.743]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - CERT-Machine.drm
+
+}}{{[98][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ipcossecuritygeneral.cpp:Microsoft::InformationProtection::OperatingSystem::IpcOsInitializeSecurityProcessor:119
+
+Loading the Security Processor
+        hierarchy: 0
+        path: C:\Program Files\Active Directory Rights Management Services Client 2.1\ipcsecproc_ssp.dll
+
+}}{{[99][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ipcossecuritygeneral.cpp:Microsoft::InformationProtection::OperatingSystem::IpcOsInitializeSecurityProcessor:126
+
+Done loading the Security Processor.
+
+}}{{[100][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: wb.cpp:IpcSPInitialize:75
+
+Secproc initialized: store name is NULL
+
+}}{{[102][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: wb.cpp:IpcSPCreateSecurityProcessor:521
+
+Initializing Secproc...
+
+}}{{[103][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWbEnvironment::InitEnvironment
+
+}}{{[104][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: wbenv.cpp:DRMWB::CDRMWbEnvironment::InitEnvironment:140
+
+++++++++ Validating Machine Certificate ++++++++
+
+}}{{[298][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: wbenv.cpp:DRMWB::CDRMWbEnvironment::InitEnvironment:148
+
+-------- Validating Machine Certificate done ---------
+
+}}{{[299][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: wbenv.cpp:DRMWB::CDRMWbEnvironment::InitEnvironment:150
+
+++++++++ Loading machine key ++++++++
+
+}}{{[303][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: wbenv.cpp:DRMWB::CDRMWbEnvironment::InitEnvironment:166
+
+------- Loading machine key done ---------
+
+}}{{[304][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWbEnvironment::InitEnvironment hr=0x0
+
+}}{{[305][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: wb.cpp:IpcSPCreateSecurityProcessor:536
+
+Successfully initialized secproc.
+
+}}{{[307][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::InitializeIdentityForServer:425
+
+++++++++ INFORMATION: Getting UserIdentity (RAC & CLC) for ++++++++
+          User: "NULL",
+          IssuerId: "NULL"
+          Intranet Url: "NULL",
+          Extranet Url: "NULL", 
+          Default SD: True,
+          Require New Identity: False
+
+}}{{[310][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetIdentityFromRegistryOrStore:620
+
++++++++++  Finding the user identity information in the registry cache ++++++++++
+
+}}{{[313][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\] DefaultIdentityServer=2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+
+}}{{[317][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] Email=Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+
+}}{{[318][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] InternalUrl=https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[319][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] ExternalUrl=https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[328][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetIdentityFromRegistry:673
+
+Identity information from the registry cache
+       Email: Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+       IntranetUrl: https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+       ExtranetUrl: https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[329][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::ReadCLCAndRACFromStore:1182
+
+Retrieve RAC & CLC from the store...
+
+}}{{[335][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - CLC-*{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}*-GIC-*{oFZN1oP6NPM+RowrYtkxKxhElxc=}*
+
+}}{{[336][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - CLC-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}-GIC-{oFZN1oP6NPM+RowrYtkxKxhElxc=}-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}.drm
+
+}}{{[341][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - GIC-*{oFZN1oP6NPM+RowrYtkxKxhElxc=}*{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}*{{27468935;je8a3;j4b73;j8286;j81342182138c}}*
+
+}}{{[342][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - GIC-{oFZN1oP6NPM+RowrYtkxKxhElxc=}-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}-{{496f38d6;j3f58;j478e;j9ea3;jd41408287db9}}.drm
+
+}}{{[345][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.779]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::InitializeIdentityFromCache:572
+
+++++++++ INFORMATION: Successfully retrieved UserIdentity (RAC & CLC) from the license store. ++++++++
+
+}}{{[351][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.779]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] Email=Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+
+}}{{[352][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.779]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] InternalUrl=https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[353][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.779]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] ExternalUrl=https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[362][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.779]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetIdentityFromRegistry:673
+
+Identity information from the registry cache
+       Email: Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+       IntranetUrl: https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+       ExtranetUrl: https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[363][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::ReadCLCAndRACFromStore:1182
+
+Retrieve RAC & CLC from the store...
+
+}}{{[369][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - CLC-*{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}*-GIC-*{oFZN1oP6NPM+RowrYtkxKxhElxc=}*
+
+}}{{[370][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - CLC-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}-GIC-{oFZN1oP6NPM+RowrYtkxKxhElxc=}-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}.drm
+
+}}{{[375][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - GIC-*{oFZN1oP6NPM+RowrYtkxKxhElxc=}*{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}*{{27468935;je8a3;j4b73;j8286;j81342182138c}}*
+
+}}{{[376][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - GIC-{oFZN1oP6NPM+RowrYtkxKxhElxc=}-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}-{{496f38d6;j3f58;j478e;j9ea3;jd41408287db9}}.drm
+
+}}{{[380][msipc]:[Warning]:[3064]:[2017-05-15 12:29:20.790]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:934
+
+REGISTRY: Open - Missing [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing\Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fc
+Exception at d:\bt\43786\private\client\src\base\fscommon\registry.h(257): lr
+HRESULT = 0x80070002
+
+}}{{[392][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - JCLC-*{{27468935;je8a3;j4b73;j8286;j81342182138c}}*-GIC-*{oFZN1oP6NPM+RowrYtkxKxhElxc=}*
+
+}}{{[396][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\] DefaultIdentityServer=2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+
+}}{{[400][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] Email=Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+
+}}{{[401][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] InternalUrl=https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[402][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] ExternalUrl=https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[411][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::SetCLC:265
+
+This is the default identity
+
+}}{{[413][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:204
+
+REGISTRY: Write [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\] NeedsRenewal=dword:0
+
+}}{{[414][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::InitializeIdentityForServer:473
+
+++++++++ INFORMATION: UserIdentity is successfully initialized. ++++++++
+
+}}{{[415][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: craclicense.cpp:Microsoft::InformationProtection::CRACLicense::LogRAC:84
+
+++++++++ INFORMATION: RAC details: ++++++++
+          User: "Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com",
+          User type: "Federation",
+          Issuer name: "KPCS CZ",
+          Issuer Id: "{27468935-e8a3-4b73-8286-81342182138c}",
+          Intranet Certification Url: "https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/certification",
+          Extranet Certification Url: "https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/certification",
+          Valid Until: "06/14/2017 12:28:00.000".
+
+}}{{[416][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: cclclicense.cpp:Microsoft::InformationProtection::CCLCLicense::LogCLC:146
+
+++++++++ INFORMATION: CLC details: ++++++++
+          User: "Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com",
+          Issuer name: "KPCS CZ",
+          Issuer Id: "{27468935-e8a3-4b73-8286-81342182138c}",
+          Intranet Licensing Url: "https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing",
+          Extranet Licensing Url: "https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing".
+
+}}{{[418][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: proactiverenewal.cpp:Microsoft::InformationProtection::ProactiveRenewal::ShouldRenewUser:61
+
+There has not been a last try (or it is in the incorrect format).
+
+}}{{[419][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: proactiverenewal.cpp:Microsoft::InformationProtection::ProactiveRenewal::ShouldRenewUser:78
+
+Not suggesting identity renew with 0.97 remaining.
+
+}}{{[423][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: ippapi.cpp:IpcGetTemplateListInternal:1841
+
+--------- Done getting user Identity hr = 0x0 ---------
+
+}}{{[424][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: ippapi.cpp:IpcGetTemplateListInternal:1867
+
++++++++ Getting all templates +++++++
+
+}}{{[425][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: win7ippstore.cpp:Microsoft::InformationProtection::TemplateManager::GetTemplateList:188
+
+++++++++ INFORMATION: Getting templates for all UserIdentities ++++++++
+
+}}{{[426][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: useridentities.cpp:Microsoft::InformationProtection::UserIdentities::init:133
+
+++++++++++ Enumerating user identities for: +++++++++++
+       EmailId: NULL
+       IntranetUrl: NULL
+       ExtranetUrl: NULL
+       PublishingOnly: True
+
+}}{{[430][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - CLC-*-GIC-*
+
+}}{{[431][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - CLC-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}-GIC-{oFZN1oP6NPM+RowrYtkxKxhElxc=}-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}.drm
+
+}}{{[436][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - GIC-*{oFZN1oP6NPM+RowrYtkxKxhElxc=}*{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}*{{27468935;je8a3;j4b73;j8286;j81342182138c}}*
+
+}}{{[437][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - GIC-{oFZN1oP6NPM+RowrYtkxKxhElxc=}-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}-{{496f38d6;j3f58;j478e;j9ea3;jd41408287db9}}.drm
+
+}}{{[439][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: useridentities.cpp:Microsoft::InformationProtection::UserIdentities::init:149
+
+Found 1 RAC & CLC pairs in the store
+
+
+}}{{[441][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - CERT-Machine
+
+}}{{[442][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - CERT-Machine.drm
+
+}}{{[443][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Servicelocation\LicensingRedirection\\] https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing=https://rmsconn.domain.com/_wmcs/licensing
+
+}}{{[444][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Servicelocation\LicensingRedirection\\] https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing=https://rmsconn.domain.com/_wmcs/licensing
+
+}}{{[445][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::InitializeIDFromCLCAndRAC:1571
+
+++++++++ License redirection detected. We need to renew the identity with the new redirection. ++++++++
+
+}}{{[446][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::InitializeIdentityForServer:425
+
+++++++++ INFORMATION: Getting UserIdentity (RAC & CLC) for ++++++++
+          User: "Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com",
+          IssuerId: "NULL"
+          Intranet Url: "https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing",
+          Extranet Url: "https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing", 
+          Default SD: False,
+          Require New Identity: True
+
+}}{{[448][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetNewIdentity:777
+
+++++++++++ INFORMATION NEEDS ONLINE +++++++++
+
+}}{{[451][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: useridentities.cpp:Microsoft::InformationProtection::UserIdentities::init:164
+
+Failed to initialze Identity hr = 0x8004020d
+
+
+}}{{[452][msipc]:[Warning]:[3064]:[2017-05-15 12:29:20.805]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:934
+
+Exception at d:\bt\43786\private\client\src\msipc\core\useridentities.cpp(192): retHr
+HRESULT = 0x8004020d
+
+}}{{[454][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcCloseHandle
+  handle:   IPC_HANDLE: 0000027BDC131F60
+
+
+}}{{[455][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcCloseHandle exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}{{[456][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandlePublicAPIException:1044
+
+Exception at d:\bt\43786\private\client\src\msipc\api\ippapi.cpp(2035): IpcGetTemplateListInternal( &activity, pConnectionInfo, NULL, pvReserved, dwFlags, lcid, NULL, pContext, ppcTil)
+HRESULT = 0x8004020d: Rights Management service requires network access to complete this operation, however the application is trying to complete this operation in an offline mode. Contact the application support for further assistance.
+
+}}{{[457][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::MapDRMErrorToIPCError:1245
+
+Error HRESULT 0x8004020d mapped to 0x8004020d
+
+}}{{[458][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcpSetLastIpcError
+  hrErrorCode:   0x8004020D
+
+
+}}{{[459][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcpSetLastIpcError exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}{{[460][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcGetTemplateList exited with return code 0x8004020D
+\-----------------------------------------------------------------------
+
+
+}}{{[461][msipc]:[Warning]:[3064]:[2017-05-15 12:29:20.821]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:934
+
+Exception at d:\bt\43786\private\client\src\fileapi\core\ckeygenerator.cpp(288): IpcGetTemplateList(NULL, 0, 0, pContext, NULL, &pTempInfoList)
+HRESULT = 0x8004020d
+
+}}{{[462][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.821]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CFileStreamProtection::Encrypt
+
+}}{{[463][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcpSetLastFileName
+  wszFileName:   file.pdf
+
+
+}}{{[464][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcpSetLastFileName exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}{{[465][msipc]:[Warning]:[3064]:[2017-05-15 12:29:20.821]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:934
+
+Exception at d:\bt\43786\private\client\src\oswindows\core\ipcosmisc.cpp(615): HRESULT_FROM_WIN32(GetLastError())
+HRESULT = 0x80070715
+
+}}{{[466][msipc]:[Error]:[3064]:[2017-05-15 12:29:20.821]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandlePublicAPIException:1070
+
+++++++++ ERROR: Exception at d:\bt\43786\private\client\src\fileapi\core\cfilestreamprotection.cpp(334): hr
+HRESULT = 0x8004020d ++++++++
+
+}}
+{{========================================= ERROR LOGS BEGIN =========================================================}}
+{{[1][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ippapi.cpp:ippInitializeAuthAndFileBasedLoggingIfNeeded:3753
+
+Logging Initialized for server mode, store name is NULL
+
+}}{{[2][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ippapi.cpp:ippInitializeAuthAndFileBasedLoggingIfNeeded:3756
+
+Log Version: 1.1
+
+}}{{[3][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:927
+
+REGISTRY: Read - Missing [HKEY_LOCAL_MACHINE\Software\Microsoft\MSIPC\] DefaultADALAuthEnabled.
+Exception at d:\bt\43786\private\client\src\base\fscommon\registry.h(257): lr
+HRESULT = 0x80070002
+
+}}{{[4][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:927
+
+REGISTRY: Read - Missing [HKEY_CURRENT_USER_LOCAL_SETTINGS\Software\Microsoft\MSIPC\] DefaultADALAuthEnabled.
+Exception at d:\bt\43786\private\client\src\base\fscommon\registry.h(257): lr
+HRESULT = 0x80070002
+
+}}{{[5][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:927
+
+Application client-id is not set
+Exception at d:\bt\43786\private\client\src\msipc\oauthtoken\ipcauthadal.cpp(68): !s_instance.m_wstrClientId.empty()
+HRESULT = 0x8004f041
+
+}}{{[6][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcpGetLoggerInstance
+  ppLoggerInstance:   000000C9C07FAAE0
+
+
+}}{{[7][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcpGetLoggerInstance exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}{{[8][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ipcfileapi.cpp:FileAPIInitializeLogging:94
+
+FileAPI logger instance initialized
+
+}}{{[9][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcGetGlobalProperty
+  dwType:   0x00000003
+
+
+}}{{[10][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcGetGlobalProperty exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}{{[11][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcFreeMemory
+  pb:   0000027BDB755020
+
+
+}}{{[12][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcFreeMemory exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}{{[13][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:204
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\] CurrentMajorVersionNumber=dword:10
+
+}}{{[14][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:204
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\] CurrentMinorVersionNumber=dword:0
+
+}}{{[15][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.727]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\] CurrentBuildNumber=14393
+
+}}{{[16][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcfpEncryptFile
+  wszInputFilePath:   d:\file.pdf
+  pvLicenseInfo:   0000027BDB789050
+  dwType:   0x00000000
+  dwFlags:   0x00000000
+  pContext:   PCIPC_PROMPT_CTX
+    -->cbSize:       40
+    -->hwndParent:   NULL
+    -->dwFlags:      0x00000005
+    -->hCancelEvent: NULL
+    -->pcCredential:
+      NULL
+  wszOutputFileDirectory:   NULL
+  pwszOutputFilePath:   0x000000C9C07FDF98
+************* Build Info *****************
+* MSIPC Version: 1.0.2217.0
+* Branch: RMS
+* Flavor: Retail
+* Architecture: x64
+******************************************
+************* System/App Info *************
+* OS: Windows
+* OS Version: 10.0.14393
+* OS Architecture: amd64
+* Client Hierarchy: 0
+* AppName: AzureRMSTestApp.vshost.exe
+* AppVersion: 14.0.23107.0
+* DateTime (UTC): 05/15/2017 12:29:20.727
+******************************************
+
+
+}}{{[17][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CProtectorSelector::Init
+
+}}{{[18][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CProtectorSelector::CreateNewProtectorInfo
+
+}}{{[19][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CProtectorSelector::CreateNewProtectorInfo
+
+}}{{[20][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CProtectorSelector::CreateNewProtectorInfo
+
+}}{{[21][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CProtectorSelector::CreateNewProtectorInfo
+
+}}{{[22][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CProtectorSelector::CreateNewProtectorInfo
+
+}}{{[23][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CProtectorSelector::CreateNewProtectorInfo
+
+}}{{[24][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CProtectorSelector::CreateNewProtectorInfo
+
+}}{{[25][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CProtectorSelector::CreateNewProtectorInfo
+
+}}{{[26][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CProtectorSelector::CreateNewProtectorInfo
+
+}}{{[27][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CProtectorSelector::CreateNewProtectorInfo
+
+}}{{[28][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CProtectorSelector::ReadProtectorConfiguration
+
+}}{{[29][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CProtectorSelector::ReadProtectorConfiguration
+
+}}{{[30][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CProtectorSelector::AddProtectorConfigurationDefaults
+
+}}{{[31][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CProtectorSelector::AddProtectorConfigurationDefaults
+
+}}{{[32][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CProtectorSelector::Init
+
+}}{{[33][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CProtectorSelector::InitPdfProtectorDependencies
+
+}}{{[34][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.727]: cprotectorselector.cpp:Microsoft::InformationProtection::CProtectorSelector::InitPdfProtectorDependencies:263
+
+PdfDepDllInstallLocation is: C:\Program Files\Active Directory Rights Management Services Client 2.1\IRMProtectors\Microsoft.Office.Server.Native.dll 
+
+}}{{[35][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CProtectorSelector::InitPdfProtectorDependencies
+
+}}{{[36][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CFileStreamProtection::CFileStreamProtection
+
+}}{{[37][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.727]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CFileStreamProtection::CreateProtectorWrapper
+
+}}{{[38][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CIrmProtectorWrapper::CIrmProtectorWrapper
+
+}}{{[39][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CIrmProtectorWrapper::CIrmProtectorWrapper
+
+}}{{[40][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CFileStreamProtection::CreateProtectorWrapper
+
+}}{{[41][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CFileStreamProtection::CFileStreamProtection
+
+}}{{[42][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CFileStreamProtection::GetProtectedFileName
+
+}}{{[43][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted
+
+}}{{[44][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cirmprotectorwrapper.cpp:Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted:114
+
++++++++++ Calling the HrIsProtected method of the protector +++++++++
+
+}}{{[45][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cirmprotectorwrapper.cpp:Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted:116
+
+--------- Call to the HrIsProtected method of the protector returned hr = 0x0 and dwStatus=2 --------
+
+}}{{[46][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted
+
+}}{{[47][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CProtectorSelector::FindforEncrypt
+
+}}{{[48][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CProtectorSelector::FindforEncrypt
+
+}}{{[49][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CFileStreamProtection::IsTheSameProtector
+
+}}{{[50][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CFileStreamProtection::IsTheSameProtector
+
+}}{{[51][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CFileStreamProtection::CreateProtectorWrapper
+
+}}{{[52][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CPfileProtectorWrapper::CPfileProtectorWrapper
+
+}}{{[53][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CPfileProtectorWrapper::CPfileProtectorWrapper
+
+}}{{[54][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CFileStreamProtection::CreateProtectorWrapper
+
+}}{{[55][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CFileStreamProtection::EvaluateFlags
+
+}}{{[56][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CFileStreamProtection::EvaluateFlags
+
+}}{{[57][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CPfileProtectorWrapper::GetProtectedFileName
+
+}}{{[58][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CPfileProtectorWrapper::SplitFilePath
+
+}}{{[59][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CPfileProtectorWrapper::SplitFilePath
+
+}}{{[60][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CPfileProtectorWrapper::GetProtectedFileName
+
+}}{{[61][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CFileStreamProtection::GetProtectedFileName
+
+}}{{[62][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CFileStreamProtection::Encrypt
+
+}}{{[63][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted
+
+}}{{[64][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cirmprotectorwrapper.cpp:Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted:114
+
++++++++++ Calling the HrIsProtected method of the protector +++++++++
+
+}}{{[65][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cirmprotectorwrapper.cpp:Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted:116
+
+--------- Call to the HrIsProtected method of the protector returned hr = 0x0 and dwStatus=2 --------
+
+}}{{[66][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted
+
+}}{{[67][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cfilestreamprotection.cpp:Microsoft::InformationProtection::CFileStreamProtection::Encrypt:190
+
++++++++++ Encrypting an plaintext file starts ++++++++
+
+}}{{[68][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CProtectorSelector::FindforEncrypt
+
+}}{{[69][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CProtectorSelector::FindforEncrypt
+
+}}{{[70][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CFileStreamProtection::EvaluateFlags
+
+}}{{[71][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CFileStreamProtection::EvaluateFlags
+
+}}{{[72][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CFileStreamProtection::IsNativeSupported
+
+}}{{[73][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted
+
+}}{{[74][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cirmprotectorwrapper.cpp:Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted:114
+
++++++++++ Calling the HrIsProtected method of the protector +++++++++
+
+}}{{[75][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cirmprotectorwrapper.cpp:Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted:116
+
+--------- Call to the HrIsProtected method of the protector returned hr = 0x0 and dwStatus=2 --------
+
+}}{{[76][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CIrmProtectorWrapper::IsEncrypted
+
+}}{{[77][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cfilestreamprotection.cpp:Microsoft::InformationProtection::CFileStreamProtection::IsNativeSupported:155
+
+Returning native supported status = 1
+
+}}{{[78][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CFileStreamProtection::IsNativeSupported
+
+}}{{[79][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CFileStreamProtection::IsTheSameProtector
+
+}}{{[80][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CFileStreamProtection::IsTheSameProtector
+
+}}{{[81][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.743]: cfilestreamprotection.cpp:Microsoft::InformationProtection::CFileStreamProtection::Encrypt:215
+
+Custom protector for this file is disabled by admin. Switch to Pfileprotector for encryption
+
+}}{{[82][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CFileStreamProtection::CreateProtectorWrapper
+
+}}{{[83][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::CPfileProtectorWrapper::CPfileProtectorWrapper
+
+}}{{[84][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CPfileProtectorWrapper::CPfileProtectorWrapper
+
+}}{{[85][fileapi]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CFileStreamProtection::CreateProtectorWrapper
+
+}}{{[86][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.743]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:204
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\] CurrentMajorVersionNumber=dword:10
+
+}}{{[87][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.743]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:204
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\] CurrentMinorVersionNumber=dword:0
+
+}}{{[88][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.743]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\] CurrentBuildNumber=14393
+
+}}{{[89][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.743]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcGetTemplateList
+  pConnectionInfo:   NULL
+  dwFlags:   0x00000000
+  lcid:   0
+  pContext:   PCIPC_PROMPT_CTX
+    -->cbSize:       40
+    -->hwndParent:   NULL
+    -->dwFlags:      0x00000005
+    -->hCancelEvent: NULL
+    -->pcCredential:
+      NULL
+  pvReserved:   NULL
+************* Build Info *****************
+* MSIPC Version: 1.0.2217.0
+* Branch: RMS
+* Flavor: Retail
+* Architecture: x64
+******************************************
+************* System/App Info *************
+* OS: Windows
+* OS Version: 10.0.14393
+* OS Architecture: amd64
+* Client Hierarchy: 0
+* AppName: AzureRMSTestApp.vshost.exe
+* AppVersion: 14.0.23107.0
+* DateTime (UTC): 05/15/2017 12:29:20.743
+******************************************
+
+
+}}{{[90][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:927
+
+Default ADAL authentication is not enabled
+Exception at d:\bt\43786\private\client\src\msipc\oauthtoken\ipcauthadal.cpp(93): E_DRM_SETTING_NOT_FOUND
+HRESULT = 0x8004f041
+
+}}{{[91][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.743]: ippapi.cpp:IpcGetTemplateListInternal:1837
+
++++++++++ Getting user identitiy before getting templates ++++++++
+       Extranet URL: NULL
+       Intranet URL: NULL
+       UserID: NULL
+
+}}{{[92][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::ippGetUser
+
+}}{{[93][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::ippGetUserForUserInfo
+
+}}{{[94][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::InitializeIdentityForUserInfo:380
+
++IPPUserIdentity::InitializeIdentityForUserInfo entered
+
+}}{{[95][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.743]: drmstore.cpp:CDRMStore::GetPersistedLicense:1856
+
+[msipc]:CDRMStore::GetPersistedLicense File Prefix to search = CERT-Machine
+
+}}{{[96][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.743]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - CERT-Machine
+
+}}{{[97][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.743]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - CERT-Machine.drm
+
+}}{{[98][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ipcossecuritygeneral.cpp:Microsoft::InformationProtection::OperatingSystem::IpcOsInitializeSecurityProcessor:119
+
+Loading the Security Processor
+        hierarchy: 0
+        path: C:\Program Files\Active Directory Rights Management Services Client 2.1\ipcsecproc_ssp.dll
+
+}}{{[99][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ipcossecuritygeneral.cpp:Microsoft::InformationProtection::OperatingSystem::IpcOsInitializeSecurityProcessor:126
+
+Done loading the Security Processor.
+
+}}{{[100][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: wb.cpp:IpcSPInitialize:75
+
+Secproc initialized: store name is NULL
+
+}}{{[101][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++IpcSPCreateSecurityProcessor
+
+}}{{[102][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: wb.cpp:IpcSPCreateSecurityProcessor:521
+
+Initializing Secproc...
+
+}}{{[103][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWbEnvironment::InitEnvironment
+
+}}{{[104][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: wbenv.cpp:DRMWB::CDRMWbEnvironment::InitEnvironment:140
+
+++++++++ Validating Machine Certificate ++++++++
+
+}}{{[105][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::LoadAndVerifySignature
+
+}}{{[106][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_ParseIssuedPrincipals
+
+}}{{[107][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPrincipal::LoadXml
+
+}}{{[108][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[109][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[110][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPublicKey::LoadXml
+
+}}{{[111][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPublicKey::LoadXml hr=0x0
+
+}}{{[112][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPrincipal::LoadXml hr=0x0
+
+}}{{[113][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_ParseIssuedPrincipals hr=0x0
+
+}}{{[114][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_SetLicenseInformation
+
+}}{{[115][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:754
+
+Getting the license ID
+
+}}{{[116][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[117][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[118][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:771
+
+Getting the content ID
+
+}}{{[119][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:787
+
+Getting the Issuer principal
+
+}}{{[120][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPrincipal::LoadXml
+
+}}{{[121][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[122][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[123][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPublicKey::LoadXml
+
+}}{{[124][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPublicKey::LoadXml hr=0x0
+
+}}{{[125][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPrincipal::LoadXml hr=0x0
+
+}}{{[126][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:799
+
+Getting the Issued Time
+
+}}{{[127][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:813
+
+Getting the License type
+
+}}{{[128][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:823
+
+License Type: Machine-Certificate
+
+}}{{[129][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:869
+
+Getting the Signature
+
+}}{{[130][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CSignature::LoadXml
+
+}}{{[131][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CSignature::LoadXml hr=0x0
+
+}}{{[132][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_SetLicenseInformation hr=0x0
+
+}}{{[133][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_ParseIssuedPrincipals
+
+}}{{[134][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPrincipal::LoadXml
+
+}}{{[135][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[136][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[137][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPublicKey::LoadXml
+
+}}{{[138][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPublicKey::LoadXml hr=0x0
+
+}}{{[139][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPrincipal::LoadXml hr=0x0
+
+}}{{[140][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_ParseIssuedPrincipals hr=0x0
+
+}}{{[141][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_SetLicenseInformation
+
+}}{{[142][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:754
+
+Getting the license ID
+
+}}{{[143][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[144][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[145][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:771
+
+Getting the content ID
+
+}}{{[146][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[147][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[148][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:787
+
+Getting the Issuer principal
+
+}}{{[149][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPrincipal::LoadXml
+
+}}{{[150][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[151][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[152][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPublicKey::LoadXml
+
+}}{{[153][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPublicKey::LoadXml hr=0x0
+
+}}{{[154][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPrincipal::LoadXml hr=0x0
+
+}}{{[155][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:799
+
+Getting the Issued Time
+
+}}{{[156][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:813
+
+Getting the License type
+
+}}{{[157][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:823
+
+License Type: Server-Licensor-Certificate
+
+}}{{[158][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:869
+
+Getting the Signature
+
+}}{{[159][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CSignature::LoadXml
+
+}}{{[160][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CSignature::LoadXml hr=0x0
+
+}}{{[161][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_SetLicenseInformation hr=0x0
+
+}}{{[162][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_ParseIssuedPrincipals
+
+}}{{[163][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPrincipal::LoadXml
+
+}}{{[164][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[165][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[166][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPublicKey::LoadXml
+
+}}{{[167][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPublicKey::LoadXml hr=0x0
+
+}}{{[168][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPrincipal::LoadXml hr=0x0
+
+}}{{[169][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_ParseIssuedPrincipals hr=0x0
+
+}}{{[170][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_SetLicenseInformation
+
+}}{{[171][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:754
+
+Getting the license ID
+
+}}{{[172][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[173][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[174][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:771
+
+Getting the content ID
+
+}}{{[175][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[176][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[177][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:787
+
+Getting the Issuer principal
+
+}}{{[178][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPrincipal::LoadXml
+
+}}{{[179][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[180][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[181][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPublicKey::LoadXml
+
+}}{{[182][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPublicKey::LoadXml hr=0x0
+
+}}{{[183][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPrincipal::LoadXml hr=0x0
+
+}}{{[184][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:799
+
+Getting the Issued Time
+
+}}{{[185][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:813
+
+Getting the License type
+
+}}{{[186][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:823
+
+License Type: DRM-CA-Certificate
+
+}}{{[187][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:869
+
+Getting the Signature
+
+}}{{[188][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CSignature::LoadXml
+
+}}{{[189][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CSignature::LoadXml hr=0x0
+
+}}{{[190][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_SetLicenseInformation hr=0x0
+
+}}{{[191][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_ParseIssuedPrincipals
+
+}}{{[192][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPrincipal::LoadXml
+
+}}{{[193][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[194][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[195][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPublicKey::LoadXml
+
+}}{{[196][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPublicKey::LoadXml hr=0x0
+
+}}{{[197][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPrincipal::LoadXml hr=0x0
+
+}}{{[198][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_ParseIssuedPrincipals hr=0x0
+
+}}{{[199][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_SetLicenseInformation
+
+}}{{[200][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:754
+
+Getting the license ID
+
+}}{{[201][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[202][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[203][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:771
+
+Getting the content ID
+
+}}{{[204][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[205][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[206][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:787
+
+Getting the Issuer principal
+
+}}{{[207][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPrincipal::LoadXml
+
+}}{{[208][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[209][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[210][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPublicKey::LoadXml
+
+}}{{[211][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPublicKey::LoadXml hr=0x0
+
+}}{{[212][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPrincipal::LoadXml hr=0x0
+
+}}{{[213][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:799
+
+Getting the Issued Time
+
+}}{{[214][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:813
+
+Getting the License type
+
+}}{{[215][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:823
+
+License Type: DRM-CA-Certificate
+
+}}{{[216][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:869
+
+Getting the Signature
+
+}}{{[217][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CSignature::LoadXml
+
+}}{{[218][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CSignature::LoadXml hr=0x0
+
+}}{{[219][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_SetLicenseInformation hr=0x0
+
+}}{{[220][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_ParseIssuedPrincipals
+
+}}{{[221][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPrincipal::LoadXml
+
+}}{{[222][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[223][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[224][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPublicKey::LoadXml
+
+}}{{[225][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPublicKey::LoadXml hr=0x0
+
+}}{{[226][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPrincipal::LoadXml hr=0x0
+
+}}{{[227][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_ParseIssuedPrincipals hr=0x0
+
+}}{{[228][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_SetLicenseInformation
+
+}}{{[229][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:754
+
+Getting the license ID
+
+}}{{[230][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[231][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[232][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:771
+
+Getting the content ID
+
+}}{{[233][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[234][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[235][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:787
+
+Getting the Issuer principal
+
+}}{{[236][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPrincipal::LoadXml
+
+}}{{[237][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CId::LoadXml
+
+}}{{[238][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CId::LoadXml hr=0x0
+
+}}{{[239][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CPublicKey::LoadXml
+
+}}{{[240][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPublicKey::LoadXml hr=0x0
+
+}}{{[241][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CPrincipal::LoadXml hr=0x0
+
+}}{{[242][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:799
+
+Getting the Issued Time
+
+}}{{[243][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:813
+
+Getting the License type
+
+}}{{[244][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:823
+
+License Type: DRM-CA-Certificate
+
+}}{{[245][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wblic.cpp:DRMWB::CDRMWBLicense::_SetLicenseInformation:869
+
+Getting the Signature
+
+}}{{[246][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CSignature::LoadXml
+
+}}{{[247][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CSignature::LoadXml hr=0x0
+
+}}{{[248][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_SetLicenseInformation hr=0x0
+
+}}{{[249][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_VerifySignature
+
+}}{{[250][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_VerifySignature hr=0x0
+
+}}{{[251][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_IsIssuerValidRoot
+
+}}{{[252][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_IsIssuerValidRoot hr=0x0
+
+}}{{[253][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::LoadAndVerifySignature hr=0x0
+
+}}{{[254][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::ValidateLicense
+
+}}{{[255][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_ValidateChainConditions
+
+}}{{[256][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_CheckValidityTime
+
+}}{{[257][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_CheckValidityTime hr=0x0
+
+}}{{[258][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::IsPrincipalIssuesInLicense
+
+}}{{[259][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wbprin.cpp:IsIdTypeSame:116
+
++IsIdTypeSame: PrincipalIdType1=MS-GUID, PrincipalIdType2=MS-GUID
+
+
+}}{{[260][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wbprin.cpp:DRMWB::CPublicKey::IsEqual:308
+
+Public keys are equal
+
+}}{{[261][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wbprin.cpp:DRMWB::CPrincipal::IsEqual:653
+
+Principals are equal
+
+}}{{[262][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::IsPrincipalIssuesInLicense hr=0x0
+
+}}{{[263][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBConditionList::_IsValid
+
+}}{{[264][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBConditionList::_IsValid hr=0x0
+
+}}{{[265][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_CheckValidityTime
+
+}}{{[266][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_CheckValidityTime hr=0x0
+
+}}{{[267][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::IsPrincipalIssuesInLicense
+
+}}{{[268][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wbprin.cpp:IsIdTypeSame:116
+
++IsIdTypeSame: PrincipalIdType1=MS-GUID, PrincipalIdType2=MS-GUID
+
+
+}}{{[269][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wbprin.cpp:DRMWB::CPublicKey::IsEqual:308
+
+Public keys are equal
+
+}}{{[270][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wbprin.cpp:DRMWB::CPrincipal::IsEqual:653
+
+Principals are equal
+
+}}{{[271][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::IsPrincipalIssuesInLicense hr=0x0
+
+}}{{[272][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBConditionList::_IsValid
+
+}}{{[273][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBConditionList::_IsValid hr=0x0
+
+}}{{[274][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_CheckValidityTime
+
+}}{{[275][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_CheckValidityTime hr=0x0
+
+}}{{[276][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::IsPrincipalIssuesInLicense
+
+}}{{[277][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wbprin.cpp:IsIdTypeSame:116
+
++IsIdTypeSame: PrincipalIdType1=ascii-tag, PrincipalIdType2=ascii-tag
+
+
+}}{{[278][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wbprin.cpp:DRMWB::CPublicKey::IsEqual:308
+
+Public keys are equal
+
+}}{{[279][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wbprin.cpp:DRMWB::CPrincipal::IsEqual:653
+
+Principals are equal
+
+}}{{[280][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::IsPrincipalIssuesInLicense hr=0x0
+
+}}{{[281][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBConditionList::_IsValid
+
+}}{{[282][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBConditionList::_IsValid hr=0x0
+
+}}{{[283][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_CheckValidityTime
+
+}}{{[284][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_CheckValidityTime hr=0x0
+
+}}{{[285][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::IsPrincipalIssuesInLicense
+
+}}{{[286][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wbprin.cpp:IsIdTypeSame:116
+
++IsIdTypeSame: PrincipalIdType1=ascii-tag, PrincipalIdType2=ascii-tag
+
+
+}}{{[287][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wbprin.cpp:DRMWB::CPublicKey::IsEqual:308
+
+Public keys are equal
+
+}}{{[288][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wbprin.cpp:DRMWB::CPrincipal::IsEqual:653
+
+Principals are equal
+
+}}{{[289][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::IsPrincipalIssuesInLicense hr=0x0
+
+}}{{[290][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBConditionList::_IsValid
+
+}}{{[291][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBConditionList::_IsValid hr=0x0
+
+}}{{[292][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::_CheckValidityTime
+
+}}{{[293][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_CheckValidityTime hr=0x0
+
+}}{{[294][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBConditionList::_IsValid
+
+}}{{[295][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBConditionList::_IsValid hr=0x0
+
+}}{{[296][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::_ValidateChainConditions hr=0x0
+
+}}{{[297][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::ValidateLicense hr=0x0
+
+}}{{[298][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: wbenv.cpp:DRMWB::CDRMWbEnvironment::InitEnvironment:148
+
+-------- Validating Machine Certificate done ---------
+
+}}{{[299][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: wbenv.cpp:DRMWB::CDRMWbEnvironment::InitEnvironment:150
+
+++++++++ Loading machine key ++++++++
+
+}}{{[300][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++DRMWB::CDRMWBLicense::IsPrincipalIssuesInLicense
+
+}}{{[301][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: wbprin.cpp:DRMWB::CPublicKey::IsEqual:308
+
+Public keys are equal
+
+}}{{[302][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWBLicense::IsPrincipalIssuesInLicense hr=0x0
+
+}}{{[303][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: wbenv.cpp:DRMWB::CDRMWbEnvironment::InitEnvironment:166
+
+------- Loading machine key done ---------
+
+}}{{[304][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-DRMWB::CDRMWbEnvironment::InitEnvironment hr=0x0
+
+}}{{[305][secproc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: wb.cpp:IpcSPCreateSecurityProcessor:536
+
+Successfully initialized secproc.
+
+}}{{[306][secproc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-IpcSPCreateSecurityProcessor hr=0x0
+
+}}{{[307][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::InitializeIdentityForServer:425
+
+++++++++ INFORMATION: Getting UserIdentity (RAC & CLC) for ++++++++
+          User: "NULL",
+          IssuerId: "NULL"
+          Intranet Url: "NULL",
+          Extranet Url: "NULL", 
+          Default SD: True,
+          Require New Identity: False
+
+}}{{[308][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPUserIdentity::InitializeIdentityFromCache
+
+}}{{[309][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetIdentityFromRegistryOrStore:598
+
+[msipc]:+IPPUserIdentity::GetIdentityFromRegistryOrStore Searching using Urls
+
+}}{{[310][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetIdentityFromRegistryOrStore:620
+
++++++++++  Finding the user identity information in the registry cache ++++++++++
+
+}}{{[311][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPUserIdentity::GetIdentityFromRegistry
+
+}}{{[312][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValuesForURL
+
+}}{{[313][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\] DefaultIdentityServer=2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+
+}}{{[314][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValuesForURL:725
+
+Default server in registry cache is 2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+
+}}{{[315][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValues
+
+}}{{[316][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPUserIdentity::ReadIdentityRegValues
+
+}}{{[317][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] Email=Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+
+}}{{[318][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] InternalUrl=https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[319][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] ExternalUrl=https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[320][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:927
+
+REGISTRY: Read - Missing [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-826
+Exception at d:\bt\43786\private\client\src\base\fscommon\registry.h(257): lr
+HRESULT = 0x80070002
+
+}}{{[321][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::ReadIdentityRegValues:1145
+
+Reg value not defined (UPN)
+
+}}{{[322][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:927
+
+REGISTRY: Read - Missing [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-826
+Exception at d:\bt\43786\private\client\src\base\fscommon\registry.h(257): lr
+HRESULT = 0x80070002
+
+}}{{[323][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::ReadIdentityRegValues:1158
+
+Reg value not defined (IsFederated)
+
+}}{{[324][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::IPPUserIdentity::ReadIdentityRegValues
+
+}}{{[325][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValues
+
+}}{{[326][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValuesForURL:734
+
+IDentity Email: Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com ExtUrl: https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+
+}}{{[327][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValuesForURL
+
+}}{{[328][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetIdentityFromRegistry:673
+
+Identity information from the registry cache
+       Email: Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+       IntranetUrl: https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+       ExtranetUrl: https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[329][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::ReadCLCAndRACFromStore:1182
+
+Retrieve RAC & CLC from the store...
+
+}}{{[330][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPLicenseStore::GetCLCWithRAC
+
+}}{{[331][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetPersistedLicense:1856
+
+[msipc]:CDRMStore::GetPersistedLicense File Prefix to search = CLC-
+
+}}{{[332][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = 2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com Masked Data = bKwWdM8ra9CWZG4VMu;eXaQI0O3g=
+
+}}{{[333][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = -GIC- Masked Data = -GIC-
+
+}}{{[334][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com Masked Data = oFZN1oP6NPM+RowrYtkxKxhElxc=
+
+}}{{[335][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - CLC-*{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}*-GIC-*{oFZN1oP6NPM+RowrYtkxKxhElxc=}*
+
+}}{{[336][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - CLC-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}-GIC-{oFZN1oP6NPM+RowrYtkxKxhElxc=}-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}.drm
+
+}}{{[337][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetPersistedLicense:1856
+
+[msipc]:CDRMStore::GetPersistedLicense File Prefix to search = GIC-
+
+}}{{[338][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = {oFZN1oP6NPM+RowrYtkxKxhElxc=} Masked Data = {oFZN1oP6NPM+RowrYtkxKxhElxc=}
+
+}}{{[339][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = {bKwWdM8ra9CWZG4VMu;eXaQI0O3g=} Masked Data = {bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}
+
+}}{{[340][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = {{27468935;je8a3;j4b73;j8286;j81342182138c}} Masked Data = {{27468935;je8a3;j4b73;j8286;j81342182138c}}
+
+}}{{[341][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - GIC-*{oFZN1oP6NPM+RowrYtkxKxhElxc=}*{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}*{{27468935;je8a3;j4b73;j8286;j81342182138c}}*
+
+}}{{[342][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.759]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - GIC-{oFZN1oP6NPM+RowrYtkxKxhElxc=}-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}-{{496f38d6;j3f58;j478e;j9ea3;jd41408287db9}}.drm
+
+}}{{[343][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.759]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-Microsoft::InformationProtection::IPPLicenseStore::GetCLCWithRAC hr=0x0
+
+}}{{[344][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.779]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::IPPUserIdentity::GetIdentityFromRegistry
+
+}}{{[345][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.779]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::InitializeIdentityFromCache:572
+
+++++++++ INFORMATION: Successfully retrieved UserIdentity (RAC & CLC) from the license store. ++++++++
+
+}}{{[346][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.779]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::SetDefaultsForServer:1242
+
+Setting the default identity information for the server.
+       Server Url: 
+
+}}{{[347][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.779]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPUserIdentity::GetIdentityFromRegistry
+
+}}{{[348][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.779]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValuesForURL
+
+}}{{[349][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.779]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValues
+
+}}{{[350][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.779]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPUserIdentity::ReadIdentityRegValues
+
+}}{{[351][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.779]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] Email=Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+
+}}{{[352][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.779]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] InternalUrl=https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[353][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.779]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] ExternalUrl=https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[354][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.779]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:927
+
+REGISTRY: Read - Missing [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-826
+Exception at d:\bt\43786\private\client\src\base\fscommon\registry.h(257): lr
+HRESULT = 0x80070002
+
+}}{{[355][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.779]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::ReadIdentityRegValues:1145
+
+Reg value not defined (UPN)
+
+}}{{[356][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.779]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:927
+
+REGISTRY: Read - Missing [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-826
+Exception at d:\bt\43786\private\client\src\base\fscommon\registry.h(257): lr
+HRESULT = 0x80070002
+
+}}{{[357][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.779]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::ReadIdentityRegValues:1158
+
+Reg value not defined (IsFederated)
+
+}}{{[358][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.779]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::IPPUserIdentity::ReadIdentityRegValues
+
+}}{{[359][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.779]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValues
+
+}}{{[360][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.779]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValuesForURL:734
+
+IDentity Email: Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com ExtUrl: https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+
+}}{{[361][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.779]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValuesForURL
+
+}}{{[362][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.779]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetIdentityFromRegistry:673
+
+Identity information from the registry cache
+       Email: Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+       IntranetUrl: https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+       ExtranetUrl: https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[363][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::ReadCLCAndRACFromStore:1182
+
+Retrieve RAC & CLC from the store...
+
+}}{{[364][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPLicenseStore::GetCLCWithRAC
+
+}}{{[365][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1856
+
+[msipc]:CDRMStore::GetPersistedLicense File Prefix to search = CLC-
+
+}}{{[366][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = 2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com Masked Data = bKwWdM8ra9CWZG4VMu;eXaQI0O3g=
+
+}}{{[367][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = -GIC- Masked Data = -GIC-
+
+}}{{[368][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com Masked Data = oFZN1oP6NPM+RowrYtkxKxhElxc=
+
+}}{{[369][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - CLC-*{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}*-GIC-*{oFZN1oP6NPM+RowrYtkxKxhElxc=}*
+
+}}{{[370][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - CLC-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}-GIC-{oFZN1oP6NPM+RowrYtkxKxhElxc=}-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}.drm
+
+}}{{[371][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1856
+
+[msipc]:CDRMStore::GetPersistedLicense File Prefix to search = GIC-
+
+}}{{[372][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = {oFZN1oP6NPM+RowrYtkxKxhElxc=} Masked Data = {oFZN1oP6NPM+RowrYtkxKxhElxc=}
+
+}}{{[373][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = {bKwWdM8ra9CWZG4VMu;eXaQI0O3g=} Masked Data = {bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}
+
+}}{{[374][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = {{27468935;je8a3;j4b73;j8286;j81342182138c}} Masked Data = {{27468935;je8a3;j4b73;j8286;j81342182138c}}
+
+}}{{[375][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - GIC-*{oFZN1oP6NPM+RowrYtkxKxhElxc=}*{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}*{{27468935;je8a3;j4b73;j8286;j81342182138c}}*
+
+}}{{[376][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - GIC-{oFZN1oP6NPM+RowrYtkxKxhElxc=}-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}-{{496f38d6;j3f58;j478e;j9ea3;jd41408287db9}}.drm
+
+}}{{[377][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-Microsoft::InformationProtection::IPPLicenseStore::GetCLCWithRAC hr=0x0
+
+}}{{[378][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::IPPUserIdentity::GetIdentityFromRegistry
+
+}}{{[379][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::SetUpnRegKeys:1316
+
++SetUpnRegKeys HostName: https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing EMail: Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com UPN NULL IsFederated False
+
+}}{{[380][msipc]:[Warning]:[3064]:[2017-05-15 12:29:20.790]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:934
+
+REGISTRY: Open - Missing [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing\Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fc
+Exception at d:\bt\43786\private\client\src\base\fscommon\registry.h(257): lr
+HRESULT = 0x80070002
+
+}}{{[381][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::SetUpnRegKeys:1343
+
+couldn't open key (SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing\Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com) - 0x80070002
+
+}}{{[382][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::SetDefaultsForServer:1266
+
+The defaults are already set. 
+
+}}{{[383][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::IPPUserIdentity::InitializeIdentityFromCache
+
+}}{{[384][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPUserIdentity::SetRAC
+
+}}{{[385][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::IPPUserIdentity::SetRAC
+
+}}{{[386][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPUserIdentity::SetCLC
+
+}}{{[387][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPLicenseStore::JsonCLCExists
+
+}}{{[388][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1856
+
+[msipc]:CDRMStore::GetPersistedLicense File Prefix to search = JCLC-
+
+}}{{[389][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = {27468935-e8a3-4b73-8286-81342182138c} Masked Data = {27468935;je8a3;j4b73;j8286;j81342182138c}
+
+}}{{[390][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = -GIC- Masked Data = -GIC-
+
+}}{{[391][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com Masked Data = oFZN1oP6NPM+RowrYtkxKxhElxc=
+
+}}{{[392][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - JCLC-*{{27468935;je8a3;j4b73;j8286;j81342182138c}}*-GIC-*{oFZN1oP6NPM+RowrYtkxKxhElxc=}*
+
+}}{{[393][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:927
+
+Exception at d:\bt\43786\private\client\src\msipc\store\drmstore.cpp(2020)
+HRESULT = 0x8004f00d
+
+}}{{[394][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-Microsoft::InformationProtection::IPPLicenseStore::JsonCLCExists hr=0x8004f00d
+
+}}{{[395][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValuesForURL
+
+}}{{[396][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\] DefaultIdentityServer=2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+
+}}{{[397][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValuesForURL:725
+
+Default server in registry cache is 2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+
+}}{{[398][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValues
+
+}}{{[399][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPUserIdentity::ReadIdentityRegValues
+
+}}{{[400][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] Email=Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com
+
+}}{{[401][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] InternalUrl=https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[402][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Identities\] ExternalUrl=https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+}}{{[403][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:927
+
+REGISTRY: Read - Missing [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-826
+Exception at d:\bt\43786\private\client\src\base\fscommon\registry.h(257): lr
+HRESULT = 0x80070002
+
+}}{{[404][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::ReadIdentityRegValues:1145
+
+Reg value not defined (UPN)
+
+}}{{[405][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:927
+
+REGISTRY: Read - Missing [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-826
+Exception at d:\bt\43786\private\client\src\base\fscommon\registry.h(257): lr
+HRESULT = 0x80070002
+
+}}{{[406][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::ReadIdentityRegValues:1158
+
+Reg value not defined (IsFederated)
+
+}}{{[407][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::IPPUserIdentity::ReadIdentityRegValues
+
+}}{{[408][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValues
+
+}}{{[409][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValuesForURL:734
+
+IDentity Email: Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com ExtUrl: https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing
+
+
+}}{{[410][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::IPPUserIdentity::GetServerIdentityRegValuesForURL
+
+}}{{[411][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::SetCLC:265
+
+This is the default identity
+
+}}{{[412][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::IPPUserIdentity::SetCLC
+
+}}{{[413][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:204
+
+REGISTRY: Write [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Server\S-1-5-21-430778625-2062202733-965548248-1106\2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com\] NeedsRenewal=dword:0
+
+}}{{[414][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::InitializeIdentityForServer:473
+
+++++++++ INFORMATION: UserIdentity is successfully initialized. ++++++++
+
+}}{{[415][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: craclicense.cpp:Microsoft::InformationProtection::CRACLicense::LogRAC:84
+
+++++++++ INFORMATION: RAC details: ++++++++
+          User: "Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com",
+          User type: "Federation",
+          Issuer name: "KPCS CZ",
+          Issuer Id: "{27468935-e8a3-4b73-8286-81342182138c}",
+          Intranet Certification Url: "https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/certification",
+          Extranet Certification Url: "https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/certification",
+          Valid Until: "06/14/2017 12:28:00.000".
+
+}}{{[416][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: cclclicense.cpp:Microsoft::InformationProtection::CCLCLicense::LogCLC:146
+
+++++++++ INFORMATION: CLC details: ++++++++
+          User: "Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com",
+          Issuer name: "KPCS CZ",
+          Issuer Id: "{27468935-e8a3-4b73-8286-81342182138c}",
+          Intranet Licensing Url: "https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing",
+          Extranet Licensing Url: "https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing".
+
+}}{{[417][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::ProactiveRenewal::ShouldRenewUser
+
+}}{{[418][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: proactiverenewal.cpp:Microsoft::InformationProtection::ProactiveRenewal::ShouldRenewUser:61
+
+There has not been a last try (or it is in the incorrect format).
+
+}}{{[419][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: proactiverenewal.cpp:Microsoft::InformationProtection::ProactiveRenewal::ShouldRenewUser:78
+
+Not suggesting identity renew with 0.97 remaining.
+
+}}{{[420][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::ProactiveRenewal::ShouldRenewUser
+
+}}{{[421][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::ippGetUserForUserInfo
+
+}}{{[422][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-Microsoft::InformationProtection::ippGetUser hr=0x0
+
+}}{{[423][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: ippapi.cpp:IpcGetTemplateListInternal:1841
+
+--------- Done getting user Identity hr = 0x0 ---------
+
+}}{{[424][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: ippapi.cpp:IpcGetTemplateListInternal:1867
+
++++++++ Getting all templates +++++++
+
+}}{{[425][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: win7ippstore.cpp:Microsoft::InformationProtection::TemplateManager::GetTemplateList:188
+
+++++++++ INFORMATION: Getting templates for all UserIdentities ++++++++
+
+}}{{[426][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: useridentities.cpp:Microsoft::InformationProtection::UserIdentities::init:133
+
+++++++++++ Enumerating user identities for: +++++++++++
+       EmailId: NULL
+       IntranetUrl: NULL
+       ExtranetUrl: NULL
+       PublishingOnly: True
+
+}}{{[427][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPLicenseStore::GetCLCWithRAC
+
+}}{{[428][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1856
+
+[msipc]:CDRMStore::GetPersistedLicense File Prefix to search = CLC-
+
+}}{{[429][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = -GIC- Masked Data = -GIC-
+
+}}{{[430][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - CLC-*-GIC-*
+
+}}{{[431][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - CLC-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}-GIC-{oFZN1oP6NPM+RowrYtkxKxhElxc=}-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}.drm
+
+}}{{[432][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1856
+
+[msipc]:CDRMStore::GetPersistedLicense File Prefix to search = GIC-
+
+}}{{[433][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = {oFZN1oP6NPM+RowrYtkxKxhElxc=} Masked Data = {oFZN1oP6NPM+RowrYtkxKxhElxc=}
+
+}}{{[434][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = {bKwWdM8ra9CWZG4VMu;eXaQI0O3g=} Masked Data = {bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}
+
+}}{{[435][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetPersistedLicense:1897
+
+[msipc]:CDRMStore::GetPersistedLicense Raw Search Data = {{27468935;je8a3;j4b73;j8286;j81342182138c}} Masked Data = {{27468935;je8a3;j4b73;j8286;j81342182138c}}
+
+}}{{[436][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - GIC-*{oFZN1oP6NPM+RowrYtkxKxhElxc=}*{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}*{{27468935;je8a3;j4b73;j8286;j81342182138c}}*
+
+}}{{[437][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.790]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - GIC-{oFZN1oP6NPM+RowrYtkxKxhElxc=}-{bKwWdM8ra9CWZG4VMu;eXaQI0O3g=}-{{27468935;je8a3;j4b73;j8286;j81342182138c}}-{{496f38d6;j3f58;j478e;j9ea3;jd41408287db9}}.drm
+
+}}{{[438][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.790]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:288
+
+-Microsoft::InformationProtection::IPPLicenseStore::GetCLCWithRAC hr=0x0
+
+}}{{[439][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: useridentities.cpp:Microsoft::InformationProtection::UserIdentities::init:149
+
+Found 1 RAC & CLC pairs in the store
+
+
+}}{{[440][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.805]: drmstore.cpp:CDRMStore::GetPersistedLicense:1856
+
+[msipc]:CDRMStore::GetPersistedLicense File Prefix to search = CERT-Machine
+
+}}{{[441][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: drmstore.cpp:CDRMStore::GetFileNamesAndData:1970
+
+STORE: Query license - CERT-Machine
+
+}}{{[442][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: drmstore.cpp:CDRMStore::GetFileNamesAndData:2044
+
+STORE: Found license - CERT-Machine.drm
+
+}}{{[443][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Servicelocation\LicensingRedirection\\] https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing=https://rmsconn.domain.com/_wmcs/licensing
+
+}}{{[444][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: registry.h:Microsoft::FoundationServices::Common::Registry::LogRegistryOperation:222
+
+REGISTRY: Read [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\MSIPC\Servicelocation\LicensingRedirection\\] https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing=https://rmsconn.domain.com/_wmcs/licensing
+
+}}{{[445][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::InitializeIDFromCLCAndRAC:1571
+
+++++++++ License redirection detected. We need to renew the identity with the new redirection. ++++++++
+
+}}{{[446][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::InitializeIdentityForServer:425
+
+++++++++ INFORMATION: Getting UserIdentity (RAC & CLC) for ++++++++
+          User: "Aadrm_S-1-5-21-430778625-2062202733-965548248-29434@2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com",
+          IssuerId: "NULL"
+          Intranet Url: "https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing",
+          Extranet Url: "https://2fca6de1-3072-4e64-89b8-8267d5efd407.rms.eu.aadrm.com/_wmcs/licensing", 
+          Default SD: False,
+          Require New Identity: True
+
+}}{{[447][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.805]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::LogFunctionHelper:281
+
++Microsoft::InformationProtection::IPPUserIdentity::GetNewIdentity
+
+}}{{[448][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetNewIdentity:777
+
+++++++++++ INFORMATION NEEDS ONLINE +++++++++
+
+}}{{[449][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.805]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::IPPUserIdentity::GetNewIdentity
+
+}}{{[450][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.805]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:927
+
+Exception at d:\bt\43786\private\client\src\msipc\core\ippuseridentity.cpp(778)
+HRESULT = 0x8004020d
+
+}}{{[451][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: useridentities.cpp:Microsoft::InformationProtection::UserIdentities::init:164
+
+Failed to initialze Identity hr = 0x8004020d
+
+
+}}{{[452][msipc]:[Warning]:[3064]:[2017-05-15 12:29:20.805]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:934
+
+Exception at d:\bt\43786\private\client\src\msipc\core\useridentities.cpp(192): retHr
+HRESULT = 0x8004020d
+
+}}{{[453][msipc]:[Trace]:[3064]:[2017-05-15 12:29:20.805]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:927
+
+Exception at d:\bt\43786\private\client\src\msipc\core\useridentities.cpp(211)
+HRESULT = 0x8004020d
+
+}}{{[454][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.805]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcCloseHandle
+  handle:   IPC_HANDLE: 0000027BDC131F60
+
+
+}}{{[455][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcCloseHandle exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}{{[456][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandlePublicAPIException:1044
+
+Exception at d:\bt\43786\private\client\src\msipc\api\ippapi.cpp(2035): IpcGetTemplateListInternal( &activity, pConnectionInfo, NULL, pvReserved, dwFlags, lcid, NULL, pContext, ppcTil)
+HRESULT = 0x8004020d: Rights Management service requires network access to complete this operation, however the application is trying to complete this operation in an offline mode. Contact the application support for further assistance.
+
+}}{{[457][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::MapDRMErrorToIPCError:1245
+
+Error HRESULT 0x8004020d mapped to 0x8004020d
+
+}}{{[458][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcpSetLastIpcError
+  hrErrorCode:   0x8004020D
+
+
+}}{{[459][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcpSetLastIpcError exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}{{[460][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcGetTemplateList exited with return code 0x8004020D
+\-----------------------------------------------------------------------
+
+
+}}{{[461][msipc]:[Warning]:[3064]:[2017-05-15 12:29:20.821]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:934
+
+Exception at d:\bt\43786\private\client\src\fileapi\core\ckeygenerator.cpp(288): IpcGetTemplateList(NULL, 0, 0, pContext, NULL, &pTempInfoList)
+HRESULT = 0x8004020d
+
+}}{{[462][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.821]: ipclogging.h:Microsoft::InformationProtection::LogFunctionHelper::~LogFunctionHelper:292
+
+-Microsoft::InformationProtection::CFileStreamProtection::Encrypt
+
+}}{{[463][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcpSetLastFileName
+  wszFileName:   file.pdf
+
+
+}}{{[464][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcpSetLastFileName exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}{{[465][msipc]:[Warning]:[3064]:[2017-05-15 12:29:20.821]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandleException:934
+
+Exception at d:\bt\43786\private\client\src\oswindows\core\ipcosmisc.cpp(615): HRESULT_FROM_WIN32(GetLastError())
+HRESULT = 0x80070715
+
+}}{{[466][msipc]:[Error]:[3064]:[2017-05-15 12:29:20.821]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::HandlePublicAPIException:1070
+
+++++++++ ERROR: Exception at d:\bt\43786\private\client\src\fileapi\core\cfilestreamprotection.cpp(334): hr
+HRESULT = 0x8004020d ++++++++
+
+}}
+{{========================================= ERROR LOGS END ==========================================================}}
+{{[467][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: ipputil.cpp:Microsoft::InformationProtection::IppUtil::MapDRMErrorToIPCError:1245
+
+Error HRESULT 0x8004020d mapped to 0x8004020d
+
+}}{{[468][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcpSetLastIpcError
+  hrErrorCode:   0x8004020D
+
+
+}}{{[469][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcpSetLastIpcError exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}{{[470][fileapi]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcfpEncryptFile exited with return code 0x8004020D
+\-----------------------------------------------------------------------
+
+
+}}{{[471][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcGetErrorMessageText
+  hrError:   0x8004020D
+  dwLanguageId:   0
+
+
+}}{{[472][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.821]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcGetErrorMessageText exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}{{[473][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.852]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcFreeMemory
+  pb:   0000027BDC0B6000
+
+
+}}{{[474][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.852]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcFreeMemory exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}{{[475][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.852]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+/-----------------------------------------------------------------------
+ Public API called: IpcFreeMemory
+  pb:   NULL
+
+
+}}{{[476][msipc]:[Info]:[3064]:[2017-05-15 12:29:20.852]: traceutil.cpp:Microsoft::InformationProtection::TraceUtil::Trace:430
+
+ Public API IpcFreeMemory exited with return code 0x00000000
+\-----------------------------------------------------------------------
+
+
+}}
