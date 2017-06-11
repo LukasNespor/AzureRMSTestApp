@@ -4,7 +4,7 @@ Application illustrates use of unmanaged RMS API with RMS Connector. According t
 ## Requirements
 - Installed and configured [Azure RMS Connector](https://docs.microsoft.com/en-us/information-protection/deploy-use/install-configure-rms-connector) on a server
 - Installed [AD RMS Client 2.1](https://www.microsoft.com/en-us/download/details.aspx?id=38397)
-- Applied [registry settings](../blob/master/RMS-redirect.reg) that will redirect all RMS communictaion to RMS Connector. This registry setttings should by applied on computer/server that is used for running the AzureRMSTestApp
+- Applied [registry settings](../master/RMS-redirect.reg) that will redirect all RMS communictaion to RMS Connector. This registry setttings should by applied on computer/server that is used for running the AzureRMSTestApp
 
 ## Description
 The application implements three methods:
@@ -25,5 +25,5 @@ SafeFileApiNativeMethods.IpcfEncryptFile(
     symmKey: null,
     outputDirectory: null);
 ```
-According to the [IPC log](../blob/master/ipc-log.txt) (starting on line 528) the error arise earlier in ``ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetNewIdentity`` 
+According to the [IPC log](../master/ipc-log.txt) (starting on line 528) the error arise earlier in ``ippuseridentity.cpp:Microsoft::InformationProtection::IPPUserIdentity::GetNewIdentity`` 
 which ignores offline flag set to false.
